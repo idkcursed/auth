@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
       alert(data.message);
 
       if (res.ok) {
-        window.location.href = '/frontend/login.html';
+        window.location.href = 'login.html';
       }
     });
   }
@@ -42,14 +42,14 @@ document.addEventListener('DOMContentLoaded', () => {
       alert(data.message);
 
       if (res.ok) {
-        window.location.href = '/frontend/home.html';
+        window.location.href = 'home.html';
       }
     });
   }
 
   if (logoutBtn) {
     logoutBtn.addEventListener('click', () => {
-      window.location.href = '/frontend/login.html';
+      window.location.href = 'index.html';
     });
   }
 });
